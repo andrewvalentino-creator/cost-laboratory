@@ -10,7 +10,7 @@ const page=()=>Object.hasOwn(pages,location.hash.slice(1))?location.hash.slice(1
 function save(){try{localStorage.setItem(KEY,JSON.stringify({model,scenarios,review,confirmed}));storageOK=true;}catch{storageOK=false;toast('Browser storage unavailable. Export a backup to preserve your work.');}}
 function changed(){scenarios[model.scenarioName]=clone(model);save();refreshLive();if($('#evaluation-status'))$('#evaluation-status').textContent='Inputs changed — evaluate again before confirmation or export.';}
 function toast(t){$('#toast').textContent=t;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',4500);}
-function download(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),3000);}
+function download(blob,name){const url=URL.createObjectURL(blob);modal('Your file is ready',`<p>Save this file to your device. Financial exports contain private assumptions.</p><a class="btn primary spacer" id="ready-download" download="${esc(name)}" href="${url}">Save ${esc(name)}</a>`);setTimeout(()=>URL.revokeObjectURL(url),300000);}
 const badge=e=>`<span class="tag ${e==='Researched'?'researched':e==='Estimated'?'estimated':e==='Illustrative'?'illustrative':'student'}">${esc(e)}</span>`;
 const options=(arr,value)=>arr.map(([v,t])=>`<option value="${esc(v)}" ${v===value?'selected':''}>${esc(t)}</option>`).join('');
 const field=(label,key,value,attrs='',kind='input')=>`<label>${label}<${kind} data-field="${key}" ${attrs}>${kind==='textarea'?esc(value):''}${kind==='input'?'':`</${kind}>`}</label>`.replace(/<input ([^>]+)>/,`<input $1 value="${esc(value)}">`);
