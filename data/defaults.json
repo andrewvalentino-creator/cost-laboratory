@@ -75,7 +75,9 @@
       "max": 70,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "battery",
@@ -99,7 +101,9 @@
       "max": 20,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": "https://www.adafruit.com/product/1578"
     },
     {
       "id": "housing",
@@ -123,7 +127,9 @@
       "max": 30,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "assembly",
@@ -147,7 +153,9 @@
       "max": 30,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": "https://www.bls.gov/ooh/production/assemblers-and-fabricators.htm"
     },
     {
       "id": "qa",
@@ -171,7 +179,9 @@
       "max": 10,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "packaging",
@@ -195,7 +205,9 @@
       "max": 10,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "inbound",
@@ -219,7 +231,9 @@
       "max": 20,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "outbound",
@@ -243,7 +257,9 @@
       "max": 30,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": "https://www.usps.com/business/prices.htm"
     },
     {
       "id": "fulfil",
@@ -267,7 +283,9 @@
       "max": 15,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "returns",
@@ -291,7 +309,9 @@
       "max": 20,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "percent",
+      "sourceUrl": null
     },
     {
       "id": "support",
@@ -315,7 +335,9 @@
       "max": 12,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": null
     },
     {
       "id": "cardRate",
@@ -339,7 +361,9 @@
       "max": 8,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "percent",
+      "sourceUrl": "https://stripe.com/pricing"
     },
     {
       "id": "cardFixed",
@@ -363,7 +387,9 @@
       "max": 2,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "unit",
+      "sourceUrl": "https://stripe.com/pricing"
     },
     {
       "id": "founder",
@@ -387,7 +413,9 @@
       "max": 8000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "ads",
@@ -411,7 +439,9 @@
       "max": 5000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "creative",
@@ -435,7 +465,9 @@
       "max": 2000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "maintenance",
@@ -459,7 +491,9 @@
       "max": 4000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "hosting",
@@ -483,7 +517,9 @@
       "max": 100,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": "https://www.netlify.com/pricing/"
     },
     {
       "id": "domain",
@@ -507,7 +543,9 @@
       "max": 100,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "year",
+      "sourceUrl": null
     },
     {
       "id": "software",
@@ -531,7 +569,9 @@
       "max": 300,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "storage",
@@ -555,7 +595,9 @@
       "max": 1000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "month",
+      "sourceUrl": null
     },
     {
       "id": "insurance",
@@ -579,7 +621,9 @@
       "max": 15000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "year",
+      "sourceUrl": null
     },
     {
       "id": "accounting",
@@ -603,7 +647,9 @@
       "max": 8000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "year",
+      "sourceUrl": null
     },
     {
       "id": "legal",
@@ -627,7 +673,9 @@
       "max": 10000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "year",
+      "sourceUrl": null
     },
     {
       "id": "annual",
@@ -651,7 +699,9 @@
       "max": 500,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "year",
+      "sourceUrl": "https://business.ct.gov/knowledge-base/articles/domestic-annual-report-forms-and-fees"
     },
     {
       "id": "prototype",
@@ -675,7 +725,9 @@
       "max": 2000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": "https://www.adafruit.com/product/2995"
     },
     {
       "id": "engineering",
@@ -699,7 +751,9 @@
       "max": 100000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     },
     {
       "id": "safety",
@@ -723,7 +777,9 @@
       "max": 100000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     },
     {
       "id": "tooling",
@@ -747,7 +803,9 @@
       "max": 50000,
       "life": 3,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     },
     {
       "id": "formation",
@@ -771,7 +829,9 @@
       "max": 10000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     },
     {
       "id": "inventory",
@@ -795,7 +855,9 @@
       "max": 40000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     },
     {
       "id": "launch",
@@ -819,7 +881,9 @@
       "max": 15000,
       "life": 0,
       "custom": false,
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "referenceFrequency": "once",
+      "sourceUrl": null
     }
   ],
   "products": [
